@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "username": "alice",
+            "password": "password1",
+            "email": "alice@example.com",
+            "credit_points": 100
+        },
+        {
+            "username": "bob",
+            "password": "password2",
+            "email": "bob@example.com",
+            "credit_points": 50
+        }
+    ]
+}

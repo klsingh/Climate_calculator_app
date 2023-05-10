@@ -1,0 +1,25 @@
+{
+    "credit_points": {
+      "public_transport": {
+        "description": "Choose public transport for your daily commute",
+        "points": 20
+      },
+      "electric_vehicle": {
+        "description": "Switch to an electric vehicle for your daily commute",
+        "points": 50
+      },
+      "solar_panels": {
+        "description": "Install solar panels in your home",
+        "points": 100
+      },
+      "vegetarian_diet": {
+        "description": "Adopt a vegetarian or vegan diet",
+        "points": 30
+      },
+      "buy_local": {
+        "description": "Buy locally grown produce",
+        "points": 10
+      }
+    }
+  }
+  
