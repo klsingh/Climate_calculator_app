@@ -1,9 +1,8 @@
 import tkinter as tk
 from tkinter import *
-from climate_calculator.src.user_authentication import UserAuthentication
-from src.carbon_footprint_calculator import calculate_carbon_footprint
-from src.carbon_credit_system import add_credit_points, get_credit_points
-from src.user_authentication import authenticate_user, login, logout
+from climate_calculator.src.carbon_footprint_calculator import calculate_carbon_footprint
+from climate_calculator.src.carbon_credit_system import add_credit_points, get_credit_points
+from climate_calculator.src.user_authentication import UserAuthentication, authenticate_user, login, logout
 
 # Create the main window
 root = tk.Tk()

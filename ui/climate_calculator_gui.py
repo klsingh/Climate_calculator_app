@@ -1,5 +1,12 @@
+import sys
+import os
 import tkinter as tk
 from tkinter import ttk
+
+# Add the root directory of the project to the Python module search path
+root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(root_dir)
+
 from src.user_interface import App
 from src.carbon_footprint_calculator import CarbonFootprintCalculator
 from src.carbon_credit_system import CarbonCreditSystem

@@ -9,10 +9,8 @@ CREDIT_POINTS_PATH = 'data/credit_points.json'
 USERS_PATH = 'data/users.json'
 
 class DataHandler:
-    def __init__(self, db_path=None):
-        if db_path is None:
-            db_path = DATABASE_PATH
-        self.connection = sqlite3.connect(db_path)
+    def __init__(self):
+        self.connection = sqlite3.connect(DATABASE_PATH)
         self.cursor = self.connection.cursor()
         self.create_tables()
         
